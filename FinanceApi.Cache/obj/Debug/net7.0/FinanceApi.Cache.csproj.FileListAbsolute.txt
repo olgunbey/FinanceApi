@@ -1,0 +1,17 @@
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceApi.Cache.deps.json
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceApi.Cache.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceApi.Cache.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceCore.Repository.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\bin\Debug\net7.0\FinanceCore.Domain.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.csproj.AssemblyReference.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.AssemblyInfoInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.AssemblyInfo.cs
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.csproj.CoreCompileInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.csproj.CopyComplete
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\refint\FinanceApi.Cache.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\FinanceApi.Cache.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceApi.Cache\obj\Debug\net7.0\ref\FinanceApi.Cache.dll

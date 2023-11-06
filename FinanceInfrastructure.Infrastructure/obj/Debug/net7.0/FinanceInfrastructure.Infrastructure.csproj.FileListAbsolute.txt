@@ -1,0 +1,17 @@
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceInfrastructure.Infrastructure.deps.json
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceInfrastructure.Infrastructure.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceInfrastructure.Infrastructure.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.AssemblyInfo.cs
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\refint\FinanceInfrastructure.Infrastructure.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\ref\FinanceInfrastructure.Infrastructure.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceCore.Repository.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\bin\Debug\net7.0\FinanceCore.Domain.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceInfrastructure.Infrastructure\obj\Debug\net7.0\FinanceInfrastructure.Infrastructure.csproj.CopyComplete

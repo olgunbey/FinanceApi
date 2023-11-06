@@ -1,0 +1,11 @@
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.AssemblyInfoInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.AssemblyInfo.cs
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\bin\Debug\net7.0\FinanceCore.Domain.deps.json
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\bin\Debug\net7.0\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\bin\Debug\net7.0\FinanceCore.Domain.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\refint\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\FinanceCore.Domain.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Domain\obj\Debug\net7.0\ref\FinanceCore.Domain.dll

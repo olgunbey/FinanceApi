@@ -1,0 +1,513 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi\\FinanceApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\FinanceApi.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\FinanceApi.Cache.csproj",
+        "projectName": "FinanceApi.Cache",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\FinanceApi.Cache.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\FinanceApi.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\FinanceApi.Services.csproj",
+        "projectName": "FinanceApi.Services",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\FinanceApi.Services.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj"
+              },
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi\\FinanceApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi\\FinanceApi.csproj",
+        "projectName": "FinanceApi",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi\\FinanceApi.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\FinanceApi.Cache.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Cache\\FinanceApi.Cache.csproj"
+              },
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\FinanceApi.Services.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceApi.Services\\FinanceApi.Services.csproj"
+              },
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj"
+              },
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\FinanceInfrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\FinanceInfrastructure.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj",
+        "projectName": "FinanceCore.Domain",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj",
+        "projectName": "FinanceCore.Repository",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj",
+        "projectName": "FinanceInfrastructure.Infrastructure",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\FinanceInfrastructure.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\FinanceInfrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\FinanceInfrastructure.Persistence.csproj",
+        "projectName": "FinanceInfrastructure.Persistence",
+        "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\FinanceInfrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\olgun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceInfrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olgun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Domain\\FinanceCore.Domain.csproj"
+              },
+              "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj": {
+                "projectPath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Calisma\\FinanceApi\\FinanceCore.Repository\\FinanceCore.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

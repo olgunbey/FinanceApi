@@ -1,0 +1,15 @@
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\bin\Debug\net7.0\FinanceCore.Repository.deps.json
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\bin\Debug\net7.0\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\bin\Debug\net7.0\FinanceCore.Repository.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.AssemblyInfoInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.AssemblyInfo.cs
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.csproj.CoreCompileInputs.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\refint\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\ref\FinanceCore.Repository.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\bin\Debug\net7.0\FinanceCore.Domain.dll
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\bin\Debug\net7.0\FinanceCore.Domain.pdb
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.csproj.AssemblyReference.cache
+C:\Users\olgun\OneDrive\Masaüstü\Calisma\FinanceApi\FinanceCore.Repository\obj\Debug\net7.0\FinanceCore.Repository.csproj.CopyComplete
