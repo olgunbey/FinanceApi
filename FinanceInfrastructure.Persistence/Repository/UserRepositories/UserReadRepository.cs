@@ -7,6 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using FinanceCore.Domain.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinanceInfrastructure.Persistence.Repository.UserRepositories
@@ -24,10 +25,16 @@ namespace FinanceInfrastructure.Persistence.Repository.UserRepositories
 
         public async Task<User> HasUserEmail(Expression<Func<User, bool>> expression)
         {
-          return await _FinanceDbContext.Users.FirstOrDefaultAsync(expression);
+          return await _FinanceDbContext.Users.AsNoTracking().FirstOrDefaultAsync(expression);
         }
 
-
-
+        public async Task<User> ThisUserLoadAccountsAndMoneyTransferLog(int userID)
+        {
+            User hasUser = await _FinanceDbContext.Users.Include(x => x.Accounts).ThenInclude(y => y.Expenses)
+                .FirstOrDefaultAsync(y => y.ID == userID);
+            if (hasUser == null)
+                throw new NoUserException("bu kullanıcı yok");
+            return hasUser;
+        }
     }
 }

@@ -2,6 +2,7 @@
 using FinanceCore.Repository.Dtos;
 using FinanceCore.Repository.IRepository.IAccountRepository;
 using FinanceCore.Repository.IRepository.IHashRepository;
+using FinanceCore.Repository.IServices.CachingServices;
 using FinanceCore.Repository.IServices.IAccountServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,11 +15,12 @@ namespace FinanceApi.Controllers
     {
         private readonly IAccountWriteService _accountWriteService;
         private readonly IAccountReadService _accountReadService;
-        public AccountController(IAccountWriteService accountWriteService, IAccountReadService accountReadService)
+        private readonly IUserCache _userCache;
+        public AccountController(IAccountWriteService accountWriteService, IAccountReadService accountReadService, IUserCache userCache)
         {
             _accountWriteService = accountWriteService;
             _accountReadService = accountReadService;
-
+            _userCache = userCache;
         }
         [HttpPost]
         public async Task<IActionResult> AccountAdd([FromBody]AccountDto accountDto)
@@ -46,6 +48,13 @@ namespace FinanceApi.Controllers
         public async Task<IActionResult> AccountExtre([FromHeader]int id)
         {
             return ResponseDto<List<UserDto>>.ResponseData.Response(await _accountReadService.GetExtre(id));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AccountRemainderCache([FromBody]int userID)
+        {
+         var returnData=  await _userCache.AccountRemainderCacheService(userID);
+            return Ok(returnData);
         }
 
     }

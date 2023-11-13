@@ -11,7 +11,7 @@ namespace FinanceCore.Repository.IServices.CachingServices
 {
     public interface ICachingBasicTransaction<T> where T : class, new()
      {
-        Task<bool> SetCaching(CacheEnum cacheEnum,string key, T value,TimeSpan timeSpan);
-        Task<T> GetCaching(CacheEnum cacheEnum,string key);
+        Task<bool> SetCaching(string key, T value,TimeSpan timeSpan);
+        Task<T> GetCaching(string key);
     }
 }

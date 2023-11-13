@@ -20,12 +20,12 @@ namespace FinanceInfrastructure.Persistence.Repository
         }
         public async Task<T> FirsOrDefaultAsync(Expression<Func<T, bool>> expression) //null olup olmama kontrolü yapılcak
         {
-          return await  _FinanceDbContext.Set<T>().FirstOrDefaultAsync(expression);
+          return await  _FinanceDbContext.Set<T>().AsNoTracking().FirstOrDefaultAsync(expression);
         }
 
         public  Task<IQueryable<T>> GetAllAsync()
         {
-            return  Task.FromResult(_FinanceDbContext.Set<T>().AsQueryable());
+            return  Task.FromResult(_FinanceDbContext.Set<T>().AsNoTracking().AsQueryable());
         }
 
         public async Task<T> GetByID(int id)
@@ -35,7 +35,7 @@ namespace FinanceInfrastructure.Persistence.Repository
 
         public Task<IQueryable<T>> WhereAsync(Expression<Func<T, bool>> expression)
         {
-            return Task.FromResult(_FinanceDbContext.Set<T>().Where(expression));
+            return Task.FromResult(_FinanceDbContext.Set<T>().AsNoTracking().Where(expression));
         }
 
         public Task<bool> HasValueAsync(int _id)

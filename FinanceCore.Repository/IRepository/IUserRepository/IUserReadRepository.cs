@@ -12,5 +12,6 @@ namespace FinanceCore.Repository.IRepository.IUserRepository
     {
         Task<IQueryable<UserToken>> UserEmailToken(User user);
         Task<User> HasUserEmail(Expression<Func<User,bool>> expression);
+        Task<User> ThisUserLoadAccountsAndMoneyTransferLog(int userID);
     }
 }

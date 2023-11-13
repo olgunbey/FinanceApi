@@ -1,5 +1,6 @@
 ﻿
 using FinanceApi.Cache.TokenCache;
+using FinanceApi.Cache.UserCacheServices;
 using FinanceApi.Services;
 using FinanceApi.Services.AccountMoneyTransferLogServices;
 using FinanceApi.Services.AccountServices;
@@ -100,6 +101,8 @@ namespace FinanceApi
             services.AddScoped(typeof(ICachingBasicTransaction<>), typeof(TokenCaching<>));
 
             services.AddScoped<IRedisClientsManager>(options => new RedisManagerPool("localhost:1453"));
+            
+            services.AddScoped(typeof(IUserCache),typeof(UserCache));
         }
     }
 }
