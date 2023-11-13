@@ -19,23 +19,17 @@ namespace FinanceApi.Cache.TokenCache
             _redisClientsManager = redisClientsManager;
             _redisClient=redisClientsManager.GetClient();
         }
-
-        public Task<T> GetCaching(CacheEnum cacheEnum, string key)
+        
+        
+        public Task<T> GetCaching( string key)
         {
-            T deger = cacheEnum switch
-            {
-                CacheEnum.GetEnum => _redisClient.Get<T>(key),
-            };
 
-            return Task.FromResult(deger);
+            return Task.FromResult( _redisClient.Get<T>(key));
         }
 
-        public Task<bool> SetCaching(CacheEnum cacheEnum, string key, T value,TimeSpan timeSpan)
+        public Task<bool> SetCaching( string key, T value,TimeSpan timeSpan)
         {
-            return Task.FromResult(cacheEnum switch
-            {
-                CacheEnum.SetEnum => _redisClient.Set<T>(key, value,timeSpan),
-            });
+          return  Task.FromResult(_redisClient.Set<T>(key, value, timeSpan));
         }
     }
 }

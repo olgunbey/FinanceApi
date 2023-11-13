@@ -37,7 +37,7 @@ namespace FinanceApi.Services.TokenServices
                 throw new NoUserException("No token, not do user exception");
             }
 
-          var TokenResponseDto= await _cachingBasicTransaction.GetCaching(CacheEnum.GetEnum, "userRefreshToken");
+          var TokenResponseDto= await _cachingBasicTransaction.GetCaching("userRefreshToken");
 
 
             var userTokens = (await _userReadRepository.UserEmailToken(user)).ToList();
@@ -103,7 +103,7 @@ namespace FinanceApi.Services.TokenServices
                 DateTime=ResponseUserTokenDto.RefreshTokenLifeDateTime
             };
 
-            var successcachingtransaction = await _cachingBasicTransaction.SetCaching(CacheEnum.SetEnum, "userRefreshToken", CacheRefreshToken,Expiried.TokenCache);
+            var successcachingtransaction = await _cachingBasicTransaction.SetCaching( "userRefreshToken", CacheRefreshToken,Expiried.TokenCache);
 
             if (!successcachingtransaction)
             {
@@ -151,7 +151,7 @@ namespace FinanceApi.Services.TokenServices
                 RefreshToken=updateUserToken.RefreshToken,
                 DateTime=updateUserToken.RefreshTokenLifeDateTime
             };
-          var successtokencaching= await _cachingBasicTransaction.SetCaching(CacheEnum.SetEnum, "userRefreshToken", cachToken,Expiried.TokenCache);
+          var successtokencaching= await _cachingBasicTransaction.SetCaching( "userRefreshToken", cachToken,Expiried.TokenCache);
             if(!successtokencaching)
             {
                 throw new CachingException("dont user refresh token caching");
